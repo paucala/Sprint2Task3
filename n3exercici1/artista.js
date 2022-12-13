@@ -1,0 +1,4 @@
+
+db.createCollection( 'artista', {validator: {$jsonSchema: {bsonType: 'object',title:'artista',required: [         'nom',          'imatge',          'albums',          'artistes_relacionats'],properties: {nom: {bsonType: 'string'},imatge: {bsonType: 'string'},albums: {bsonType: 'array',items: {
+title:'object',required: [         'id',          'titol',          'any',          'imatge_portada',          'cançons'],properties: {id: {bsonType: 'objectId'},titol: {bsonType: 'string'},any: {bsonType: 'int'},imatge_portada: {bsonType: 'string'},cançons: {bsonType: 'array',items: {
+title:'object',required: [         'id',          'titol',          'durada',          'reproduccions'],properties: {id: {bsonType: 'objectId'},titol: {bsonType: 'string'},durada: {bsonType: 'string', description:'Format HH:MM:SS'},reproduccions: {bsonType: 'int'}}}}}}},artistes_relacionats: {bsonType: 'array',items: {bsonType: 'objectId'}}}         }      }});  

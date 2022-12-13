@@ -1,0 +1,1201 @@
+{
+	"tables": {
+		"bf51eb58-5f96-47f6-8420-a884fae80a36": {
+			"id": "bf51eb58-5f96-47f6-8420-a884fae80a36",
+			"visible": true,
+			"name": "usuari",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "04472077-5bbc-4ce7-bd1f-4179e5e5a83b",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "62273a7e-f430-4eff-a6e2-3711658a848c",
+					"name": "email",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "0e21e3ec-9ae6-4326-9b36-2630b4163d40",
+					"name": "password",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e0706c1a-738d-4dbe-acf4-47f00f0f3541",
+					"name": "nom",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "b98ba72d-0bd9-4dda-8de6-b9246bc7dfd5",
+					"name": "data_naixement",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "9dfaac95-a7be-43b4-9d6f-859d22ae72ac",
+					"name": "genere",
+					"datatype": "enum",
+					"param": "masculi, femeni, altres",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "91372072-4734-40cc-aed3-058fe2a4ea5c",
+					"name": "pais",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "cac2de75-6eac-4457-b11c-70e4f2d89899",
+					"name": "CP",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7896f212-3344-4475-b2bb-2534efb8d3f8",
+					"name": "tipus",
+					"datatype": "int",
+					"param": "0, 1",
+					"pk": false,
+					"nn": true,
+					"comment": "0= free, 1 = premium",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "03ed63f9-65a5-44a8-a581-35fb25b19ce5",
+					"name": "premium",
+					"datatype": "7cb32b5b-f244-4504-bb42-a22bbe29ee3e",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "4f73b532-4ee3-4fc2-b252-0906c16e1261",
+					"name": "playlists",
+					"datatype": "c34e8ffc-d17b-4f35-8d1d-cdefe28a92d6",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6196b107-aa22-48b6-8fcf-19eeb6fa06da",
+					"name": "afegir_canço",
+					"datatype": "d08be8b5-ec32-441b-a779-3a599f5dbc3d",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "9aab5865-164a-4b0f-98f0-3e9e2dff7c81",
+					"name": "follow_playlists",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "54f5f1b5-670b-4e43-bd8c-47e699803eea",
+					"name": "folow_artist",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "607abcf2-6a8d-44d8-b44c-648ba64a0eb5",
+					"name": "like_album",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c56d1e6a-5a23-4552-a6a5-511317580d7e",
+					"name": "like_canço",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"26e4b3f7-b802-4862-8263-5900dea558f0"
+			],
+			"keys": [
+				{
+					"id": "fb717a8b-a5a4-4232-b009-b9ab6b97a55e",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "377f09f2-ee33-4688-a099-4a01e9602c03",
+							"colid": "04472077-5bbc-4ce7-bd1f-4179e5e5a83b"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"7cb32b5b-f244-4504-bb42-a22bbe29ee3e": {
+			"id": "7cb32b5b-f244-4504-bb42-a22bbe29ee3e",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "919c0933-7bfa-441e-af0d-cdb2b08f0332",
+					"name": "data_inici",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7ffd6415-e8cf-4683-9236-3a401a4e9efd",
+					"name": "data_renovacio",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "431dc1b5-9dd4-46a5-b114-2c0fcfc9a71c",
+					"name": "forma_pagament",
+					"datatype": "e1e955f4-d0c4-42cf-8bdd-c755a570fcca",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "6491a925-286b-4bd3-b6e1-c97647706b85",
+					"name": "pagaments",
+					"datatype": "1268ef21-11c7-419b-8bd0-16c80f61490f",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "1f1f27e8-469a-4470-bf0f-5149642aa8f8",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"c34e8ffc-d17b-4f35-8d1d-cdefe28a92d6": {
+			"id": "c34e8ffc-d17b-4f35-8d1d-cdefe28a92d6",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "069606e7-c439-460c-93ee-31f93c4a70b7",
+					"name": "id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a9c44078-987c-4c95-9fef-c415df2de990",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "5c671099-5ac2-45d4-aadc-4037b8298975",
+					"name": "num_cançons",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "5974c36b-64f7-45c3-9b73-0e6805ea6115",
+					"name": "data_creacio",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c7f45681-f501-490d-8b21-4854623f9a8c",
+					"name": "estat",
+					"datatype": "int",
+					"param": "0, 1",
+					"pk": false,
+					"nn": true,
+					"comment": "0 = activa, 1  =esborrada",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "6012444d-e579-424f-affb-a45464907c56",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "df266acd-ab7e-4ef0-adea-0822b926ca2b",
+							"colid": "069606e7-c439-460c-93ee-31f93c4a70b7"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"d08be8b5-ec32-441b-a779-3a599f5dbc3d": {
+			"id": "d08be8b5-ec32-441b-a779-3a599f5dbc3d",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "351f9971-c818-45b8-8219-e47b33160f7e",
+					"name": "id_playlist",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "2aebaab0-814a-408c-8185-a438000dee65",
+					"name": "id_canço",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "13dd7c59-7890-4b5c-bb3c-332e5d06d3f8",
+					"name": "data",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "b1259258-3b7c-4bde-b541-9d2d7766d157",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"f0b0fb66-ba2e-4564-8e2f-dbf4f1aa7598": {
+			"id": "f0b0fb66-ba2e-4564-8e2f-dbf4f1aa7598",
+			"visible": true,
+			"name": "artista",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "c68aec2d-ad3c-480a-a980-05aeacdaa238",
+					"name": "_id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": ""
+				},
+				{
+					"id": "800b9c0e-af7d-4ba3-bacd-95a2a3f0a224",
+					"name": "nom",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c3212ff6-a95a-4c9e-8bcf-1a0b4efbfaf3",
+					"name": "imatge",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c95787bb-b1e5-4a92-ad14-46450b40654e",
+					"name": "albums",
+					"datatype": "aa98a0ce-f678-4eb0-b230-e805c7014579",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "7004b2d6-6287-4702-915a-5fb61962f9e6",
+					"name": "artistes_relacionats",
+					"datatype": "objectId",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [
+				"26e4b3f7-b802-4862-8263-5900dea558f0"
+			],
+			"keys": [
+				{
+					"id": "b0d537c2-8fed-4f2e-b725-415964327d3f",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "94551cdb-d7d4-4cb1-9c1d-f665af6b8163",
+							"colid": "c68aec2d-ad3c-480a-a980-05aeacdaa238"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"validationLevel": "na",
+			"validationAction": "na",
+			"collation": "",
+			"others": ""
+		},
+		"aa98a0ce-f678-4eb0-b230-e805c7014579": {
+			"id": "aa98a0ce-f678-4eb0-b230-e805c7014579",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "13d31c75-fe88-4776-adae-db4897282bf1",
+					"name": "id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "e9d90a47-76bf-4f8d-bbcd-354a6a7845ca",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "99452768-cf2b-481f-b039-3662f56c3ad6",
+					"name": "any",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "cb63cb72-362e-4003-8898-01c61d6c1761",
+					"name": "imatge_portada",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "abf2f9e8-5bcd-47f2-a878-1525db67565a",
+					"name": "cançons",
+					"datatype": "30972c8d-339b-4c47-abb6-ecc01e4df605",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": true,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "804ba7d7-0129-4226-98e6-2b1cb68c7afa",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "5cc128f9-bc2d-47fe-ae69-4b61da938aec",
+							"colid": "13d31c75-fe88-4776-adae-db4897282bf1"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"e1e955f4-d0c4-42cf-8bdd-c755a570fcca": {
+			"id": "e1e955f4-d0c4-42cf-8bdd-c755a570fcca",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "b4d91761-dba5-4556-abe8-629ce8436c0e",
+					"name": "targeta",
+					"datatype": "1a993770-841b-43f5-8641-e26baaafbe49",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a6278228-ce8d-4533-b37d-f38362b44059",
+					"name": "paypal",
+					"datatype": "638b80de-6e49-4fe3-8efc-a2dc9bc4462c",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "169a0f3f-422e-4f95-ab09-82962cdf2a4c",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"1268ef21-11c7-419b-8bd0-16c80f61490f": {
+			"id": "1268ef21-11c7-419b-8bd0-16c80f61490f",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "b878e270-f590-4f5f-92b5-0717aeb9a50b",
+					"name": "num_ordre",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "cfcada0e-69ef-40c9-bc80-dacf2695bfa1",
+					"name": "data",
+					"datatype": "timestamp",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "418f860f-bad0-4327-a983-ba9531f3e0db",
+					"name": "total",
+					"datatype": "double",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "1324afc6-7bcd-4127-8420-acfb498edd2a",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "2dd8091e-3486-430d-9dd1-dd7a5250fea6",
+							"colid": "b878e270-f590-4f5f-92b5-0717aeb9a50b"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"1a993770-841b-43f5-8641-e26baaafbe49": {
+			"id": "1a993770-841b-43f5-8641-e26baaafbe49",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "a2ad82a0-5441-4b90-8389-43200da66dd4",
+					"name": "caducitat",
+					"datatype": "date",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "93e166ef-45c4-444b-ad90-3bfb615216d5",
+					"name": "codi_seguretat",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "b2cc411b-7f0c-4d08-a9f8-d77e73372170",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"638b80de-6e49-4fe3-8efc-a2dc9bc4462c": {
+			"id": "638b80de-6e49-4fe3-8efc-a2dc9bc4462c",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "4961c0be-df73-4b4f-888f-c5be546b6f63",
+					"name": "nom",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "654501d1-a6c2-4f82-ad03-96254192bc8b",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		},
+		"30972c8d-339b-4c47-abb6-ecc01e4df605": {
+			"id": "30972c8d-339b-4c47-abb6-ecc01e4df605",
+			"visible": false,
+			"name": "object",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "72cb3d1a-9d1c-457b-8a43-5d9830226744",
+					"name": "id",
+					"datatype": "objectId",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "9c700f52-0706-4a98-8c55-8d22c19a3951",
+					"name": "titol",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "a8b24754-791d-43ea-83ef-07dbc3d16500",
+					"name": "durada",
+					"datatype": "string",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "Format HH:MM:SS",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				},
+				{
+					"id": "c72d6a25-e424-4a86-a6a9-0fb881a757fb",
+					"name": "reproduccions",
+					"datatype": "int",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"list": false,
+					"enum": "",
+					"validate": ""
+				}
+			],
+			"relations": [],
+			"lines": [],
+			"keys": [
+				{
+					"id": "26705b4c-87f0-45ca-a1ba-733b4c37bec4",
+					"name": "Primary key",
+					"isPk": true,
+					"using": "na",
+					"cols": [
+						{
+							"id": "47b6f071-58cb-4608-8365-8c7af0dc6573",
+							"colid": "72cb3d1a-9d1c-457b-8a43-5d9830226744"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": true,
+			"generate": true,
+			"generateCustomCode": true
+		}
+	},
+	"relations": {},
+	"notes": {},
+	"lines": {
+		"26e4b3f7-b802-4862-8263-5900dea558f0": {
+			"id": "26e4b3f7-b802-4862-8263-5900dea558f0",
+			"visible": true,
+			"name": "usuari-artista",
+			"desc": "",
+			"style": "solid",
+			"parent": "bf51eb58-5f96-47f6-8420-a884fae80a36",
+			"child": "f0b0fb66-ba2e-4564-8e2f-dbf4f1aa7598",
+			"lineColor": "transparent",
+			"markerStart": "none",
+			"markerEnd": "arrowEnd",
+			"linegraphics": "basic",
+			"generate": true
+		}
+	},
+	"model": {
+		"name": "spotify",
+		"id": "22cd0947-1b4a-4c56-9042-ad5aa4025036",
+		"activeDiagram": "c3ed6df7-d969-45f5-a8f9-28de344a0a23",
+		"desc": "",
+		"path": "",
+		"type": "MONGODB",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 5,
+			"minor": 2,
+			"extra": 0
+		},
+		"embeddedInParentsIsDisplayed": true,
+		"schemaContainerIsDisplayed": false,
+		"cardinalityIsDisplayed": false,
+		"estimatedSizeIsDisplayed": false,
+		"writeFileParam": false,
+		"currentDisplayMode": "metadata",
+		"def_coltopk": true,
+		"def_validationLevel": "na",
+		"def_validationAction": "na",
+		"def_collation": "",
+		"def_others": "",
+		"lastSaved": "12/12/2022",
+		"modelScriptsDir": "C:\\Users\\pauca\\MondoDB\\Sprint2Tasca3\\n3exercici1",
+		"modelPdfReportPath": "C:\\Users\\pauca\\MondoDB\\Sprint2Tasca3\\n3exercici1\\spotify.pdf"
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"c3ed6df7-d969-45f5-a8f9-28de344a0a23": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "c3ed6df7-d969-45f5-a8f9-28de344a0a23",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"bf51eb58-5f96-47f6-8420-a884fae80a36": {
+					"referencedItemId": "bf51eb58-5f96-47f6-8420-a884fae80a36",
+					"x": 45,
+					"y": 30,
+					"gHeight": 674,
+					"gWidth": 394,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true
+				},
+				"7cb32b5b-f244-4504-bb42-a22bbe29ee3e": {
+					"referencedItemId": "7cb32b5b-f244-4504-bb42-a22bbe29ee3e",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"c34e8ffc-d17b-4f35-8d1d-cdefe28a92d6": {
+					"referencedItemId": "c34e8ffc-d17b-4f35-8d1d-cdefe28a92d6",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"d08be8b5-ec32-441b-a779-3a599f5dbc3d": {
+					"referencedItemId": "d08be8b5-ec32-441b-a779-3a599f5dbc3d",
+					"x": 200,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"f0b0fb66-ba2e-4564-8e2f-dbf4f1aa7598": {
+					"referencedItemId": "f0b0fb66-ba2e-4564-8e2f-dbf4f1aa7598",
+					"x": 556,
+					"y": 182,
+					"gHeight": 278,
+					"gWidth": 289,
+					"color": "#ffffff",
+					"background": "#ffc107",
+					"resized": false,
+					"autoExpand": true
+				},
+				"aa98a0ce-f678-4eb0-b230-e805c7014579": {
+					"referencedItemId": "aa98a0ce-f678-4eb0-b230-e805c7014579",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"e1e955f4-d0c4-42cf-8bdd-c755a570fcca": {
+					"referencedItemId": "e1e955f4-d0c4-42cf-8bdd-c755a570fcca",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"1268ef21-11c7-419b-8bd0-16c80f61490f": {
+					"referencedItemId": "1268ef21-11c7-419b-8bd0-16c80f61490f",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"1a993770-841b-43f5-8641-e26baaafbe49": {
+					"referencedItemId": "1a993770-841b-43f5-8641-e26baaafbe49",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"638b80de-6e49-4fe3-8efc-a2dc9bc4462c": {
+					"referencedItemId": "638b80de-6e49-4fe3-8efc-a2dc9bc4462c",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				},
+				"30972c8d-339b-4c47-abb6-ecc01e4df605": {
+					"referencedItemId": "30972c8d-339b-4c47-abb6-ecc01e4df605",
+					"x": 400,
+					"y": 40,
+					"gHeight": 60,
+					"gWidth": 160,
+					"color": "#ffffff",
+					"background": "#8bc34a",
+					"resized": false,
+					"autoExpand": true
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 20
+			},
+			"type": "erd"
+		}
+	},
+	"order": [],
+	"collapsedTreeItems": []
+}

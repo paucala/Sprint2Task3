@@ -1,0 +1,4 @@
+
+db.createCollection( 'botiga', {validator: {$jsonSchema: {bsonType: 'object',title:'botiga',required: [         'adreça',          'empleats'],properties: {adreça: {bsonType: 'object',
+title:'object',required: [         'carrer',          'numero',          'CP',          'provincia'],properties: {carrer: {bsonType: 'string'},numero: {bsonType: 'string'},CP: {bsonType: 'int'},provincia: {bsonType: 'objectId'}}},empleats: {bsonType: 'array',items: {
+title:'object',required: [         'id',          'nom',          'cognoms',          'NIF',          'telefon',          'tipus'],properties: {id: {bsonType: 'objectId'},nom: {bsonType: 'string'},cognoms: {bsonType: 'string'},NIF: {bsonType: 'string'},telefon: {bsonType: 'string'},tipus: {enum: }}}}}         }      }});  
